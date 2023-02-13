@@ -15,10 +15,14 @@
 
 .body {
     font-size: 62.5%
+        
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-container {
-    position: relative;
     background-color: rgba(32, 174, 218, 0.8);
     width: 90vw;
     height: 90vh;
@@ -33,7 +37,6 @@
     }
 
     max-width: 20rem;
-    position: absolute;
     margin-top: 4rem;
     margin-bottom: auto;
     margin-left: auto;
